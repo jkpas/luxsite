@@ -41,12 +41,16 @@ textarea {
   resize: none;
 }
 
-input:focus, textarea:focus {
+input:focus, textarea:focus, button:focus {
   outline: medium none;
 }
 
-input:active, textarea:active {
+input:active, textarea:active, button:active {
   outline: medium none;
+}
+
+ul {
+  list-style: none;
 }
 
 /* font-family: "ArimoBold"; */
@@ -71,15 +75,28 @@ input:active, textarea:active {
   box-sizing: border-box;
 }
 
+input::-webkit-input-placeholder {
+  color: inherit;
+}
+
+input::-moz-placeholder {
+  color: inherit;
+}
+
+/* Firefox 19+ */
+input:-moz-placeholder {
+  color: inherit;
+}
+
+/* Firefox 18- */
+input:-ms-input-placeholder {
+  color: inherit;
+}
+
 h2 {
   font-family: "ArimoBoldItalic";
   font-size: 30px;
   margin-bottom: 50px;
-}
-
-.row {
-  margin-left: 0;
-  margin-right: 0;
 }
 
 .red {
@@ -98,6 +115,31 @@ h2 {
   font-family: "ArimoBold";
   color: #fcf7f7;
   text-transform: uppercase;
+}
+.form input, .form button {
+  width: 100%;
+  height: 60px;
+  border-radius: 8px;
+  background-color: transparent;
+  font-size: 18px;
+  font-family: "ArimoBold";
+  text-transform: uppercase;
+}
+.form input {
+  border: 3px solid #fcf7f7;
+  color: #fcf7f7;
+}
+.form button {
+  border: 3px solid #fe2617;
+  color: #fe2617;
+}
+.form button:hover {
+  background-color: #fe2617;
+  color: #fcf7f7;
+}
+.form button:active {
+  border: 3px solid #fe3c2f;
+  color: #fcf7f7;
 }
 
 .modal-content {
