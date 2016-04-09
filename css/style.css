@@ -69,6 +69,10 @@ ul {
   font-style: normal;
   font-weight: normal;
 }
+.clearfix {
+  clear: both;
+}
+
 * {
   font-family: "ArimoBold";
   font-size: 12px;
@@ -93,8 +97,8 @@ input:-ms-input-placeholder {
   color: inherit;
 }
 
-.clearfix {
-  clear: both;
+section {
+  padding: 55px 0;
 }
 
 h2 {
@@ -111,6 +115,18 @@ h2 {
   display: block;
 }
 
+.btn-main {
+  width: 100%;
+  height: 60px;
+  border-radius: 8px;
+  background-color: transparent;
+  font-size: 18px;
+  font-family: "ArimoBold";
+  text-transform: uppercase;
+  border: 3px solid #fe2617;
+  color: #fe2617;
+}
+
 section.form {
   padding: 50px 0 80px;
   background-color: #0d2738;
@@ -120,7 +136,7 @@ section.form h2 {
   color: #fcf7f7;
   text-transform: uppercase;
 }
-section.form input, section.form button {
+section.form input {
   width: 100%;
   height: 60px;
   border-radius: 8px;
@@ -128,14 +144,8 @@ section.form input, section.form button {
   font-size: 18px;
   font-family: "ArimoBold";
   text-transform: uppercase;
-}
-section.form input {
   border: 3px solid #fcf7f7;
   color: #fcf7f7;
-}
-section.form button {
-  border: 3px solid #fe2617;
-  color: #fe2617;
 }
 section.form button:hover {
   background-color: #fe2617;
@@ -147,7 +157,6 @@ section.form button:active {
 }
 
 section.slider {
-  padding: 55px 0;
   background: url("../img/slider_bg.png");
 }
 section.slider h2 {
@@ -189,6 +198,21 @@ section.slider .carousel .carousel-control.left {
 }
 section.slider .carousel .carousel-control.right {
   background-image: none;
+}
+
+section.advanteges {
+  background-color: #0d2738;
+}
+section.advanteges h2 {
+  color: #fcf7f7;
+}
+section.advanteges .advanteges_item img {
+  margin-bottom: 15px;
+}
+section.advanteges .advanteges_item span {
+  font-family: "ArimoBoldItalic";
+  color: #fcf7f7;
+  font-size: 18px;
 }
 
 .modal-content {
