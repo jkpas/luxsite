@@ -11,6 +11,10 @@ $(document).ready(function(){
 	//      $(".left_sidebar").remove().insertAfter($(".content"));
 	// };
 
+	$('.carousel').carousel({
+	    interval: false
+	}); 	
+
 // alax for php mailer --------------------   
 
 	$("#form").submit(function() { //устанавливаем событие отправки для формы с id=form

@@ -83,6 +83,10 @@ input::-moz-placeholder          {color:inherit;}/* Firefox 19+ */
 input:-moz-placeholder           {color:inherit;}/* Firefox 18- */
 input:-ms-input-placeholder      {color:inherit;}
 
+.clearfix{
+  clear: both;
+}
+
 h2{
   font-family: $ArimoBoldItalic;
   font-size: 30px;
@@ -98,7 +102,7 @@ h2{
   display: block;
 }
 
-.form {
+section.form {
   padding: 50px 0 80px;
   background-color: #0d2738;
   h2{
@@ -133,6 +137,52 @@ h2{
   }
 }
 
+section.slider{
+  padding: 55px 0;
+  background: url("../img/slider_bg.png");
+  h2{
+    color: #0d2738;
+    margin-bottom: 60px;
+  }
+  .carousel{
+    min-height: 280px;
+    .carousel-indicators{
+        bottom: 0;
+      li{
+        width: 15px;
+        height: 15px;
+        background-color: #0d2738;
+      }
+      li.active{
+        background-color: #fe2617;
+        margin: 1px;
+      }
+    }
+    .carousel-inner{
+      padding-bottom: 40px;
+      .item{
+        p{
+          min-height: 220px;
+          color: #0d2738;
+          font-size: 18px;
+          line-height: 22px;
+        }
+        span{
+          font-family: $ArimoBoldItalic;
+          color: #fe2617;
+          font-size: 18px;
+          text-transform: uppercase;
+        }
+      }
+    }
+    .carousel-control.left {
+      background-image: none;
+    }
+    .carousel-control.right {
+      background-image: none;
+    }
+  }
+}
 
 
 // modal window 
