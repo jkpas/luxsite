@@ -18,16 +18,16 @@
     <div class="container">
         <h2>хотите заказать услуги курьера с <span class="red">10%</span> скидкой?<span class="new_string">Заполните простую форму.</span></h2>
         <div class="row">
-        	<form method="post" id="form" role="form">  
+        	<form method="post" role="form">  
 	        	<ul>
 	        	   	<li class="col-md-4 text-center">
-	        	   		<input class="text-center" type="text" name="name" id="name" placeholder="ИМЯ">
+	        	   		<input class="text-center" type="text" name="name" placeholder="ИМЯ">
 	        	   	</li>
 	        	   	<li class="col-md-4 text-center">
-	        	   		<input class="text-center" type="tel" name="phone" id="phone" placeholder="ТЕЛЕФОН">
+	        	   		<input class="text-center" type="tel" name="phone" placeholder="ТЕЛЕФОН">
 	        	   	</li>
 	        		<li class="col-md-4 text-center">
-	        			<button class="btn-main text-center" type="submit">получить скидку</button>
+	        			<button class="btn_main text-center" type="submit">получить скидку</button>
 	        		</li>
 	        	</ul> 
             </form>            
@@ -77,28 +77,28 @@
 	<div class="container">
 		<h2>Сделайте свою жизнь проще!</h2>
 		<div class="row">
-			<div class="advanteges_item col-md-3 col-md-offset-3">
+			<a href="#" class="advanteges_item col-md-3 col-md-offset-3 col-sm-6">
 				<img class="text-center" src="img/adv_icon_1.png" width="124" height="123" alt="adv_icon_1">
 				<span class="new_string text-center"><span class="new_string">Экономьте</span>вместе с нами</span>
-			</div>
-			<div class="advanteges_item col-md-3">
+			</a>
+			<a href="#" class="advanteges_item col-md-3 col-sm-6">
 				<img class="text-center" src="img/adv_icon_1.png" width="124" height="123" alt="adv_icon_1">
 				<span class="new_string text-center"><span class="new_string">Экономьте</span>вместе с нами</span>
-			</div>
+			</a>
 		</div>
-		<div class="row">
-			<div class="col-md-3">
+		<div class="row" id="adaptive_row1">
+			<div class="col-md-3  col-sm-6" id="adaptive_wrap1">
 				<div class="row">
-					<div class="advanteges_item col-md-12">
+					<a href="#" class="advanteges_item col-md-12 marg_bot_90" id="adaptive_row1_a1">
 						<img class="text-center" src="img/adv_icon_1.png" width="124" height="123" alt="adv_icon_1">
 						<span class="new_string text-center"><span class="new_string">Экономьте</span>вместе с нами</span>
-					</div>
+					</a>
 				</div>	
 				<div class="row">
-					<div class="advanteges_item col-md-12">
+					<a href="#" class="advanteges_item col-md-12" id="adaptive_row1_a2">
 						<img class="text-center" src="img/adv_icon_1.png" width="124" height="123" alt="adv_icon_1">
 						<span class="new_string text-center"><span class="new_string">Экономьте</span>вместе с нами</span>
-					</div>
+					</a>
 				</div>
 			</div>
 			<div class="advanteges_text col-md-6">
@@ -106,60 +106,54 @@
 				</p>
 				<span class="new_string text-center">Распорядитесь бюджетом с умом!</span>
 			</div>
-			<div class="col-md-3">
+			<div class="col-md-3 col-sm-6" id="adaptive_wrap2">
 				<div class="row">
-					<div class="advanteges_item col-md-12">
+					<a href="#" class="advanteges_item col-md-12 marg_bot_90" id="adaptive_row2_a1">
 						<img class="text-center" src="img/adv_icon_1.png" width="124" height="123" alt="adv_icon_1">
 						<span class="new_string text-center"><span class="new_string">Экономьте</span>вместе с нами</span>
-					</div>
+					</a>
 				</div>		
 				<div class="row">
-					<div class="advanteges_item col-md-12">
+					<a href="#" class="advanteges_item col-md-12 col-sm-6" id="adaptive_row2_a2">
 						<img class="text-center" src="img/adv_icon_1.png" width="124" height="123" alt="adv_icon_1">
 						<span class="new_string text-center"><span class="new_string">Экономьте</span>вместе с нами</span>
-					</div>
+					</a>
 				</div>
 			</div>
 		</div>
 		<div class="row">
-			<div class="advanteges_item col-md-3 col-md-offset-3">
+			<a href="#" class="advanteges_item col-md-3 col-md-offset-3 col-sm-6">
 				<img class="text-center" src="img/adv_icon_1.png" width="124" height="123" alt="adv_icon_1">
 				<span class="new_string text-center"><span class="new_string">Экономьте</span>вместе с нами</span>
-			</div>
-			<div class="advanteges_item col-md-3">
+			</a>
+			<a href="#" class="advanteges_item col-md-3 col-sm-6">
 				<img class="text-center" src="img/adv_icon_1.png" width="124" height="123" alt="adv_icon_1">
 				<span class="new_string text-center"><span class="new_string">Экономьте</span>вместе с нами</span>
-			</div>
+			</a>
 		</div>
 		<div class="row"> 
-			
-			<button class="btn-main col-md-6 col-md-offset-3 text-center">Заказать курьерскую доставку</button>
+			<div class="btn_wrapper col-md-6 col-md-offset-3 col-sm-6 col-sm-offset-3 col-xs-10 col-xs-offset-1 col-sm-6">
+				<button class="btn_main text-center" type="button" data-toggle="modal" data-target="#myModal">Заказать курьерскую доставку</button>
+			</div>			
 		</div>
 	</div>	
 </section>
 
-<!-- modal window -->
-
-<!-- <a href="#" data-toggle="modal" data-target="#myModal">Обратная связь</a> -->
+<!-- modal window  -->
 	
 <div id="myModal" class="modal fade" role="dialog">
 	<div class="modal-dialog">   
 	    <div class="modal-content">
 	    	<div class="modal-header">
 		        <button type="button" class="close" data-dismiss="modal">close</button>
-		        <h4 class="modal-title">Обратная связь</h4>
+		        <h4 class="modal-title">Оставьте свои данные, и наш менеджер свяжется с Вами в течение 30 секунд.</h4>
 		    </div>
 	    	<div class="modal-body">
-	        	<form method="post" id="form">
-		        	<label for="name">Ваше имя*</label>                 
-	                <input type="text" name="name" id="name">
-	                <label for="phone">Ваш номер телефона*</label> 
-	                <input type="tel" name="phone" id="phone">
-	                <label for="email">Email*</label> 
-	                <input type="email" name="email" id="email" required="required" placeholder="Поле обязательно для заполнения">
-	                <label for="text">Сообщение</label> 
-	                <textarea name="text" id="text"></textarea>
-	                <button type="submit">отправить</button>
+	        	<form method="post" id="form">              
+	                <input class="text-center" type="text" name="name" id="name" placeholder="Ваше имя:">
+	                <input class="text-center" type="tel" name="phone" id="phone" placeholder="Ваш телефон:">
+	                <input class="text-center marg_bot_40" type="email" name="email" id="email" placeholder="Ваша почта:">
+	                <button class="btn_main text-center" type="submit">отправить</button>
             	</form> 
 	    	</div>
 	    </div>

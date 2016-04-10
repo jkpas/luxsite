@@ -5,3 +5,28 @@
 	}
 }
 
+@media screen and (max-width: 992px){
+	section.form, section.slider, section.advanteges {
+		padding: 30px 0;		
+	}	
+	section.form ul li {
+		margin-bottom: 20px;
+	}
+	section.slider h2, section.advanteges h2 {
+	    margin-bottom: 20px;
+	}
+	section.slider .carousel .carousel-inner p{
+        min-height: 220px;
+        line-height: 22px;
+        font-size: 18px;
+    }
+    section.advanteges .advanteges_text {
+	    padding-top: 0;
+	    margin-bottom: 20px;
+	}
+	section.advanteges .btn_wrapper {
+	    padding: 0 10px 0;
+	}
+}
+
+
