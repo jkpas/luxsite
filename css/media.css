@@ -24,9 +24,43 @@
 	    padding-top: 0;
 	    margin-bottom: 20px;
 	}
+	section.advanteges .row {
+	    margin-bottom: 20px;
+	}
 	section.advanteges .btn_wrapper {
-	    padding: 0 10px 0;
+	    padding: 20px 10px 0;
+	}
+	section.advanteges .advanteges_text {
+	    max-width: 450px;
+	    width: 100%;
+	    position: static;
+	    margin: 0 auto 20px;
 	}
 }
 
-
+@media screen and (max-width: 768px){
+	section.advanteges .row a {
+	    margin-bottom: 20px;
+	}
+	section.advanteges .btn_wrapper {
+		padding: 0 10px 0;
+	}
+	section.advanteges .btn_wrapper .btn_main {
+	    font-size: 14px;
+	}
+	.modal-content {
+	    padding: 40px 10px 20px;
+	}
+	.modal-content .modal-header h4 {
+	    font-size: 14px;
+	    margin-bottom: 20px;
+	}
+	.modal-content .modal-header .close {
+	    top: 10px;
+	    right: 10px;
+	}
+	section.form h2 { 
+	    font-size: 20px;
+	    margin-bottom: 20px;
+	}
+}

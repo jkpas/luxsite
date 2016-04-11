@@ -210,6 +210,7 @@ section.slider{
 }
 section.advanteges{
   background-color: #0d2738;
+  position: relative;
   h2{
     color: #fcf7f7;
   }
@@ -242,14 +243,20 @@ section.advanteges{
     }
   }
   .advanteges_text{
-    padding-top: 120px;
+    max-width: 450px;
+    width: 100%;
+    position: absolute;
+    top: 445px;
+    left: 0;
+    right: 0; 
+    margin-left: auto;
+    margin-right: auto;  
     p{
       color: #fcf7f7;
       line-height: 22px;
       margin-bottom: 15px;
     }
     span{
-
       color: #fe2617;
     }
   }
@@ -267,6 +274,7 @@ section.advanteges{
     }
   }
 }
+
 
 
 // modal window 
@@ -339,6 +347,7 @@ section.advanteges{
 }
 
 .modal-dialog {
-    max-width: 466px;
+    max-width: 460px;
     width: 100%;
+    margin: 0 auto;
 }

@@ -218,6 +218,7 @@ section.slider .carousel .carousel-control.right {
 
 section.advanteges {
   background-color: #0d2738;
+  position: relative;
 }
 section.advanteges h2 {
   color: #fcf7f7;
@@ -249,7 +250,14 @@ section.advanteges .advanteges_item:hover span {
   color: #fd2516;
 }
 section.advanteges .advanteges_text {
-  padding-top: 120px;
+  max-width: 450px;
+  width: 100%;
+  position: absolute;
+  top: 445px;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
 }
 section.advanteges .advanteges_text p {
   color: #fcf7f7;
@@ -341,6 +349,7 @@ section.advanteges .btn_wrapper .btn_main:hover {
 }
 
 .modal-dialog {
-  max-width: 466px;
+  max-width: 460px;
   width: 100%;
+  margin: 0 auto;
 }
